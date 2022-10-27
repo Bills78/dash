@@ -5,12 +5,276 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Hello, World!</title>
+    <script
+      src="https://kit.fontawesome.com/5984f1526e.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="container">
-      <div class="left-div"></div>
-      <div class="top-div"></div>
-      <div class="content"></div>
+      <div class="left-div">
+        <div class="dash-title">
+          <div class="options-row">
+            <i class="fa-solid fa-bars-staggered sandwich"></i>
+            <h1 class="title">Dashboard</h1>
+          </div>
+        </div>
+        <div class="dash-options">
+          <div class="options-row">
+            <i class="fa-solid fa-house"></i>
+            <h2>Home</h2>
+          </div>
+          <div class="options-row">
+            <i class="fa-regular fa-user"></i>
+            <h2>Profile</h2>
+          </div>
+          <div class="options-row">
+            <i class="fa-regular fa-message"></i>
+            <h2>Messages</h2>
+          </div>
+          <div class="options-row">
+            <i class="fa-regular fa-clock"></i>
+            <h2>History</h2>
+          </div>
+          <div class="options-row">
+            <i class="fa-solid fa-bars-progress"></i>
+            <h2>Tasks</h2>
+          </div>
+          <div class="options-row">
+            <i class="fa-solid fa-people-group"></i>
+            <h2>Communities</h2>
+          </div>
+        </div>
+        <div></div>
+        <div class="dash-extras">
+          <div class="options-row">
+            <i class="fa-solid fa-gears"></i>
+            <h2>Settings</h2>
+          </div>
+          <div class="options-row">
+            <i class="fa-solid fa-headset"></i>
+            <h2>Support</h2>
+          </div>
+          <div class="options-row">
+            <i class="fa-solid fa-shield-halved"></i>
+            <h2>Privacy</h2>
+          </div>
+        </div>
+      </div>
+      <div class="top-div">
+        <div class="search">
+          <i class="fa-solid fa-magnifying-glass" id="icon-search"></i>
+          <input type="search" id="search" />
+        </div>
+        <div class="notifications">
+          <i class="fa-regular fa-bell" id="bell"></i>
+          <img src=./resources/user-placeholder.png alt="pro pic"
+          id="profile-icon">
+          <h3>Your Name</h3>
+        </div>
+        <div class="user-details-section">
+          <div class="user-div">
+            <div class="user-img-div">
+              <img src=./resources/user-placeholder.png alt="pro pic"
+              id="big-pic">
+            </div>
+            <div class="user-details-div">
+              <h4>Hi there,</h4>
+              <div id="user-details">
+                <h2 class="name">Your Name</h2>
+                <h4 id="handle">(@RidiculousHandle)</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="actions">
+          <button type="button">New</button>
+          <button type="button">Upload</button>
+          <button type="button">Share</button>
+        </div>
+      </div>
+      <div class="content">
+        <div class="cards">
+          <h2 class="content-title">Projects</h2>
+          <div class="cards-div">
+            <div class="card-container">
+              <div class="line-thingy"></div>
+              <div class="card">
+                <div class="card-details">
+                  <h4 class="card-title">Project Name</h4>
+                  <p class="description">
+                    Spicy jalapeno bacon ipsum dolor amet chislic chuck
+                    exercitation quis incididunt consequat. Sirloin ut eu
+                    laborum pork chop ut.
+                  </p>
+                </div>
+                <div class="card-actions">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-brands fa-square-github"></i>
+                </div>
+              </div>
+            </div>
+            <div class="card-container">
+              <div class="line-thingy"></div>
+              <div class="card">
+                <div class="card-details">
+                  <h4 class="card-title">Project Name</h4>
+                  <p class="description">
+                    Spicy jalapeno bacon ipsum dolor amet chislic chuck
+                    exercitation quis incididunt consequat. Sirloin ut eu
+                    laborum pork chop ut.
+                  </p>
+                </div>
+                <div class="card-actions">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-brands fa-square-github"></i>
+                </div>
+              </div>
+            </div>
+            <div class="card-container">
+              <div class="line-thingy"></div>
+              <div class="card">
+                <div class="card-details">
+                  <h4 class="card-title">Project Name</h4>
+                  <p class="description">
+                    Spicy jalapeno bacon ipsum dolor amet chislic chuck
+                    exercitation quis incididunt consequat. Sirloin ut eu
+                    laborum pork chop ut.
+                  </p>
+                </div>
+                <div class="card-actions">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-brands fa-square-github"></i>
+                </div>
+              </div>
+            </div>
+            <div class="card-container">
+              <div class="line-thingy"></div>
+              <div class="card">
+                <div class="card-details">
+                  <h4 class="card-title">Project Name</h4>
+                  <p class="description">
+                    Spicy jalapeno bacon ipsum dolor amet chislic chuck
+                    exercitation quis incididunt consequat. Sirloin ut eu
+                    laborum pork chop ut.
+                  </p>
+                </div>
+                <div class="card-actions">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-brands fa-square-github"></i>
+                </div>
+              </div>
+            </div>
+            <div class="card-container">
+              <div class="line-thingy"></div>
+              <div class="card">
+                <div class="card-details">
+                  <h4 class="card-title">Project Name</h4>
+                  <p class="description">
+                    Spicy jalapeno bacon ipsum dolor amet chislic chuck
+                    exercitation quis incididunt consequat. Sirloin ut eu
+                    laborum pork chop ut.
+                  </p>
+                </div>
+                <div class="card-actions">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-brands fa-square-github"></i>
+                </div>
+              </div>
+            </div>
+            <div class="card-container">
+              <div class="line-thingy"></div>
+              <div class="card">
+                <div class="card-details">
+                  <h4 class="card-title">Project Name</h4>
+                  <p class="description">
+                    Spicy jalapeno bacon ipsum dolor amet chislic chuck
+                    exercitation quis incididunt consequat. Sirloin ut eu
+                    laborum pork chop ut.
+                  </p>
+                </div>
+                <div class="card-actions">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-brands fa-square-github"></i>
+                </div>
+              </div>
+            </div>
+            <div class="card-container">
+              <div class="line-thingy"></div>
+              <div class="card">
+                <div class="card-details">
+                  <h4 class="card-title">Project Name</h4>
+                  <p class="description">
+                    Spicy jalapeno bacon ipsum dolor amet chislic chuck
+                    exercitation quis incididunt consequat. Sirloin ut eu
+                    laborum pork chop ut.
+                  </p>
+                </div>
+                <div class="card-actions">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-brands fa-square-github"></i>
+                </div>
+              </div>
+            </div>
+            <div class="card-container">
+              <div class="line-thingy"></div>
+              <div class="card">
+                <div class="card-details">
+                  <h4 class="card-title">Project Name</h4>
+                  <p class="description">
+                    Spicy jalapeno bacon ipsum dolor amet chislic chuck
+                    exercitation quis incididunt consequat. Sirloin ut eu
+                    laborum pork chop ut.
+                  </p>
+                </div>
+                <div class="card-actions">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-brands fa-square-github"></i>
+                </div>
+              </div>
+            </div>
+            <div class="card-container">
+              <div class="line-thingy"></div>
+              <div class="card">
+                <div class="card-details">
+                  <h4 class="card-title">Project Name</h4>
+                  <p class="description">
+                    Spicy jalapeno bacon ipsum dolor amet chislic chuck
+                    exercitation quis incididunt consequat. Sirloin ut eu
+                    laborum pork chop ut.
+                  </p>
+                </div>
+                <div class="card-actions">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-brands fa-square-github"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="info-div">
+          <h2 class="content-title">Announcements</h2>
+          <div class="info-card-div">
+            <div class="info-card">
+              <p>
+                Bacon ipsum dolor amet fatback venison chuck, pork sirloin
+                turkey drumstick salami picanha meatloaf kielbasa short loin.
+              </p>
+              <div class="divider"></div>
+              <p>
+                Short ribs jowl fatback brisket leberkas, alcatra salami buffalo
+                burgdoggen pancetta filet mignon jerky.
+              </p>
+              <div class="divider"></div>
+              <p>
+                Tri-tip ribeye ham salami frankfurter ham hock brisket pig. Rump
+                pig drumstick, beef ribs sausage cupim burgdoggen pancetta
+                landjaeger.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <script src="index.js"></script>
   </body>
